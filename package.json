@@ -1,0 +1,23 @@
+{
+    "name": "autoscaler",
+    "version": "1.0.0",
+    "description": "autoscaler",
+    "type": "commonjs",
+    "main": "autoscaler.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prebuild": "rm -rf dist",
+        "start": "NODE_ENV=development & node autoscaler.js",
+        "dev": "NODE_ENV=development & nodemon autoscaler.js",
+        "prod": "NODE_ENV=development & node autoscaler.js"
+    },
+    "author": "Shubham",
+    "license": "ISC",
+    "dependencies": {
+        "node-fetch": "^2.6.12",
+        "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
