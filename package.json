@@ -7,9 +7,9 @@
     "scripts": {
         "test": "jest",
         "prebuild": "rm -rf dist",
-        "start": "NODE_ENV=development & node autoscaler.js",
+        "start": "NODE_ENV=development & node server.js",
         "dev": "NODE_ENV=development & nodemon server.js",
-        "prod": "NODE_ENV=development & node autoscaler.js"
+        "prod": "NODE_ENV=development & node server.js"
     },
     "author": "Shubham",
     "license": "ISC",
