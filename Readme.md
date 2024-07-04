@@ -18,4 +18,10 @@ This application automatically adjusts the number of replicas of a separate appl
    npm install
 3. Run the autoscaler using and monitor the logs:
    ```bash
-   npm run dev
+   npm run start
+
+## Setting up for tests
+1. Ensure you have installed all dependencies as mentioned above
+2. Run the tests using and monitor the logs:
+   ```bash
+   npm run test
